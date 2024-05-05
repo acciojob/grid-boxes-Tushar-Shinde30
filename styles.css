@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.a {
+  grid-column: span 2;
+}
+
+.b {
+  grid-row: span 2;
+}
+
+.c {
+  grid-column: span 2;
+}
+
+.d {
+  grid-row: span 2;
+}
+
+.e {
+  grid-column: span 2;
+}
+
+.f {
+  grid-row: span 2;
+}
